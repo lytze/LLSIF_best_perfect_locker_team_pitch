@@ -91,7 +91,7 @@ table.shtable tr td input {
 - - -
 
 
-_**Love Live! School Idol Festival**_ is an popular mobile rytheme game, also part of the [Love Live! School Idol Project](), a multi-media project including TV animes, musics and lives, so on and also the mobile game. Our Shiny-app is designed as a _**helper tool**_ for the players of this game.  
+_**Love Live! School Idol Festival**_ is an popular mobile rhythm game, also part of the [Love Live! School Idol Project](), a multi-media project including TV animes, musics and lives, so on and also the mobile game. Our Shiny-app is designed as a _**helper tool**_ for the players of this game.  
 As common _**rytheme game**_, hitting the note too late or early will break the combo, while combo number gives extra bonus in the game. But in Love Live SIF, cards of different characters may have skills which can add effect to the team to loosen the miss criterion. And these cards have such type of skill are called _**perfect-lockers**_.  
 Our shiny-app is aimed to choose from perfect-locker cards having _**different parameters**_ (yell intervals, success rates and effect durations) the user has, to organize a best team that maximize the overall probability of having the effect during a live.
 
@@ -132,7 +132,7 @@ Our shiny-app is aimed to choose from perfect-locker cards having _**different p
 
 <p/>
 
-First, users need to select cards he/she has from the given list. Above is part of the list, which is accually a customed `checkboxGroupInput()`. The checkboxes are located on the first column in the list before the ID number, and set the hidden using additional __javascript__. Click (_**you can try it here**_) the row will check the coressponding box, which is also defined in the __javascript__, and render the input via __jQuery__ `.trigger("change")`.
+First, users need to select cards he/she has from the given list. Above is part of the list, which is accually a customed `checkboxGroupInput()`. The checkboxes are located on the first column in the list before the ID number, and set the hidden using additional __javascript__. Click (_**you can try it here**_) the row will check the corresponding box, which is also defined in the __javascript__, and render the input via __jQuery__ `.trigger("change")`.
 
 ---
 
