@@ -101,34 +101,18 @@ Our shiny-app is aimed to choose from perfect-locker cards having _**different p
 
 - - -
 
-<div id="selectedCard" class="form-group shiny-input-checkboxgroupshiny-input-container" style="width: 100%"><div class="shiny-options-group"><table class="shtable">
- <thead>
-  <tr>
-   <th style="text-align:center;"> Card_ID </th>
-   <th style="text-align:center;"> Image </th>
-   <th style="text-align:center;"> Character </th>
-   <th style="text-align:center;"> Yell_Interval </th>
-   <th style="text-align:center;"> Success_Rate </th>
-   <th style="text-align:center;"> Effect_Duration </th>
-  </tr>
- </thead>
-<tbody>
-  <tr onclick="cardListRowClick(this)"><td style="text-align:center;"> <input type="checkbox" name="selectedCard" id="selectedCard1" value="133" />133 </td>
-   <td style="text-align:center;"> <img src="./img/133.jpg" height="50px" width="50px"><img src="./img/133_ido.jpg" height="50px" width="50px"> </td>
-   <td style="text-align:center;"> Koizumi Hanayo </td>
-   <td style="text-align:center;"> 10 sec </td>
-   <td style="text-align:center;"> 18% </td>
-   <td style="text-align:center;"> 5 sec </td>
-  </tr>
-  <tr onclick="cardListRowClick(this)"><td style="text-align:center;"> <input type="checkbox" name="selectedCard" id="selectedCard2" value="272" />272 </td>
-   <td style="text-align:center;"> <img src="./img/272.jpg" height="50px" width="50px"><img src="./img/272_ido.jpg" height="50px" width="50px"> </td>
-   <td style="text-align:center;"> Hoshizora Rin </td>
-   <td style="text-align:center;"> 13 sec </td>
-   <td style="text-align:center;"> 44% </td>
-   <td style="text-align:center;"> 6 sec </td>
-  </tr>
-</tbody>
-</table></div></div>
+
+```
+## Error in eval(expr, envir, enclos): could not find function "kable"
+```
+
+```
+## Error in gsub("<tr>\\n(\\s)+<td", "<tr onclick=\"cardListRowClick(this)\"><td", : object 'innerHTMLTable' not found
+```
+
+```
+## Error in paste("<div id=\"selectedCard\" class=\"form-group shiny-input-checkboxgroup", : object 'innerHTMLTable' not found
+```
 
 <p/>
 
