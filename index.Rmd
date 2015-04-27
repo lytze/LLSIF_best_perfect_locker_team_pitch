@@ -102,6 +102,7 @@ Our shiny-app is aimed to choose from perfect-locker cards having _**different p
 - - -
 
 ```{r echo=FALSE, results='asis', cache=FALSE}
+library(knitr)
 card_list <- read.csv('LoveliveSIF_CNServer_pfLocker_card_list.csv', as.is = T)
 card_list_o <- card_list
 selected <- numeric()
